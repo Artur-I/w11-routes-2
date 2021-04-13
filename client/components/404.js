@@ -38,7 +38,7 @@ const mapStateToProps = () => ({})
 const mapDispatchToProps = (dispatch) =>
   bindActionCreators(
     {
-      goRoot: () => push('/')
+      goRoot: () => push('/dashboard')
     },
     dispatch
   )
