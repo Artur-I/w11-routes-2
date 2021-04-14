@@ -12,10 +12,20 @@ const Main = () => {
             Main
           </div>
           <div>
-            <Link className="flex justify-center border rounded font-semibold m-2 p-2" to="/dashboard/profile/df592f80-bfe9-11e9-9a23-1914400a8e72">Go To Profile</Link>
+            <Link
+              className="flex justify-center border rounded font-semibold m-2 p-2"
+              to="/dashboard/profile/df592f80-bfe9-11e9-9a23-1914400a8e72"
+            >
+              Go To Profile
+            </Link>
           </div>
           <div>
-            <Link className="flex justify-center border rounded font-semibold m-2 p-2" to="/dashboard">Go To Root</Link>
+            <Link
+              className="flex justify-center border rounded font-semibold m-2 p-2"
+              to="/dashboard"
+            >
+              Go To Root
+            </Link>
           </div>
         </div>
       </div>
